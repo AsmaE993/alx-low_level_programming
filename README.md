@@ -1,0 +1,1 @@
+firsy project in c

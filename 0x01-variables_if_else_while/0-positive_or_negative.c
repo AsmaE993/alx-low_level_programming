@@ -3,7 +3,11 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
@@ -13,7 +17,7 @@ int main(void)
 	/* your code goes there */
 	if(n > 0)
        	{
-		printf("n is a positive number\n");
+		printf("%d is a positive number\n", n);
 	}
 
 	else if(n == 0) 
@@ -23,7 +27,7 @@ int main(void)
 
 	else(n < 0);
 	{
-		printf("n is a negative number\n");
+		printf("%d is a negative number\n", n);
 	}
 
 	return (0);
